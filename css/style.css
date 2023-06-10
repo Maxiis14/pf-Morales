@@ -99,6 +99,33 @@
   width: 80%;
 }
 
+.h_art2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.banner1 {
+  width: 77%;
+  background-color: #ffe672;
+  animation-name: scale-up-center;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* Main*/
 .m {
   background-color: rgb(202, 240, 255);
@@ -916,15 +943,6 @@ body {
   list-style: none;
   text-decoration: none;
   outline: none;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  min-height: 100vh;
-  background-color: rgb(202, 240, 255);
-  /* min-width: 100vh; */
 }
 
 /*# sourceMappingURL=style.css.map */
