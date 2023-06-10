@@ -1,0 +1,24 @@
+// Import a Header general
+@import "headergral";
+// Import a Main General
+@import "maingral";
+// Import a Pag nosotros
+@import "pagnosotros";
+// Import a Pag destinos
+@import "pagdestinos";
+// Import a Pag vehiculos
+@import "pagvehiculos";
+// Import a Pag contacto
+@import "pagcontacto";
+// Import a foote general
+@import "pfootergral";
+// Format general
+* {
+    font-family: Helvetica;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+  }

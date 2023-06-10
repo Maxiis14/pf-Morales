@@ -1,0 +1,91 @@
+  /* Header */
+.h {
+  background-color: rgb(202, 240, 255);
+}
+.m_art1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .m_art1 h2 {
+    font-family: Helvetica;
+    padding-top: 15px;
+    font-size: 200%;
+    justify-content: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .m_art1 h2 {
+    font-family: Helvetica;
+    padding-top: 15px;
+    font-size: 300%;
+    justify-content: center;
+  }
+}
+@media (min-width: 1025px) {
+  .m_art1 h2 {
+    font-family: Helvetica;
+    padding-top: 15px;
+    font-size: 400%;
+    justify-content: center;
+  }
+}
+.m_art1 p {
+  font-family: Helvetica;
+  margin: 20px;
+  font-size: 130%;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .m_art1 p {
+    font-family: Helvetica;
+    margin: 20px;
+    font-size: 100%;
+  }
+}
+.h_ul1 {
+  padding: 10px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(240, 240, 240);
+}
+.h_ul1 li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.h_ul1 img {
+  flex: 1;
+  width: 35px;
+  height: 35px;
+}
+.h_div1 {
+  padding-bottom: 2px;
+  background-color: rgb(202, 240, 255);
+}
+.h_art2 {
+  margin: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 240, 240)
+}
+.h_art2 h1 {
+  font-family: Helvetica;
+  font-size: 50px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.banner1 {
+  width: 80%;
+}

@@ -1,0 +1,44 @@
+  /* Pagina Vehiculos */
+  
+  .autos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* width: 50%; */
+    border: 1.5px solid black;
+    margin: 10px;
+    background-color: rgb(240, 240, 240);
+    /* font-size: 20px; */
+    /* width: 90%; */
+  }
+  .autos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* width: 50%; */
+    margin: 10px;
+    /* font-size: 20px; */
+    /* width: 90%; */
+  }
+  .autos h4 {
+    margin: auto;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .img-vehiculos {
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+  }
+  @media (max-width: 768px) {
+    .img-vehiculos {
+      padding: 10px;
+      width: 290px;
+      height: 180px;
+    }
+  }
+  

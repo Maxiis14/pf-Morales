@@ -1,0 +1,120 @@
+  /* Pagina Contacto */
+// Header para que no choque con boostrap
+#header_b {
+  padding: 10px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(240, 240, 240);
+}
+#header_b li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+#header_b img {
+  flex: 1;
+  width: 35px;
+  height: 35px;
+}
+
+  @media (max-width: 768px) {
+    .sec_form {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      background-image: url("../image/salinas1.png");
+      background-size: 260% 100%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .sec_form {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      background-image: url("../image/salinas1.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .sec_form {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      background-image: url("../image/salinas1.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+    }
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 0px 5%;
+  }
+  .formulario label {
+    margin-bottom: 10px;
+    font-size: 145%;
+    font-weight: bold;
+  }
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: 1.2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+  }
+  .formulario textarea {
+    width: 300px;
+    padding: 12px;
+    border: 1.2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0.8;
+    font-weight: bold;
+  }
+  .formulario input[type="text"]:focus,
+  .formulario input[type="email"]:focus,
+  .formulario input[type="tel"]:focus {
+    outline: none;
+    border-color: #8db3f0;
+  }
+  .submit {
+    align-items: center;
+    justify-content: center;
+  }
+  .formulario button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #8db3f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario button[type="submit"]:hover {
+    background-color: #5878b8;
+  }
